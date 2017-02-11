@@ -1,6 +1,6 @@
-# PhpStorm URL Handler
+# RubyMine URL Handler
 
-This package contains a launcher to open files in PhpStorm at the defined line
+This package contains a launcher to open files in RubyMine at the defined line
 number and an associated desktop file that conforms to the Desktop Entry
 Specification for use in Gnome and KDE desktop environments.
 
