@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=RubyMine URL Handler
+Comment=Handle URL scheme x-mine://open?file=@file&line=@line
+Icon=rubymine
+NoDisplay=true
+Categories=TextEditor;Utility;
+Exec=rubymine-url-handler $u
+Terminal=false
+MimeType=x-scheme-handler/x-mine;x-scheme-handler/mine;
+X-Desktop-File-Install-Version=0.1

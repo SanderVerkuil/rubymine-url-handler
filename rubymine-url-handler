@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+# RubyMine URL Handler
+# x-mine://open?file=@file&line=@line
+
+arg=${1}
+
+file=$(echo "${arg}" | sed -r 's/.*file=(.*)&line=.*/\1/')
+line=$(echo "${arg}" | sed -r 's/.*file=.*&line=(.*)/\1/')
+
+echo $line
+echo $file
+
+/usr/bin/env jetbrains-rubymine --line "${line}" "${file}"
